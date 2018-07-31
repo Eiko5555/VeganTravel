@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Arabic"
+        android:id="@+id/tv_arabic"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="10dp"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:typeface="sans" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Meat: lahm  لحم \n Milk: halib حليب
+        \n Egg: baydatan بيضة \n Dairy: muntajat al'alban  منتجات الألبان
+        \n Tree nut: shajarat aljuz  شجرة الجوز \n Fish: sammak  سمك
+        \n Shellfish: mahar  محار \n Wheat: qamah  قمح
+        \n Soy: alssawia الصويا \n\n
+        I am Vegetarian.(Female/Male) Ana Nabatee / Natbateeya  نا نباتي \n
+        I don't eat meat or chicken at all. Mish Akol Lahma walla Ferekh khalis"
+        android:id="@+id/tv_arabic2"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp" />
+</LinearLayout>
