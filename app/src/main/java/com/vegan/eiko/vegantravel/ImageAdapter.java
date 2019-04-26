@@ -11,8 +11,6 @@ import android.widget.ImageView;
  * Created by eiko on 11/23/2015.
  */
 public class ImageAdapter extends BaseAdapter {
-    private Context imageAdapterContex;
-
     //keep all images in array
     public Integer[] ThumbImages = {
             R.drawable.noanimal, R.drawable.vegan_logo,
@@ -20,23 +18,23 @@ public class ImageAdapter extends BaseAdapter {
             R.drawable.nocowy, R.drawable.nopiggy,
             R.drawable.nochiken, R.drawable.nonfish
     };
+    private Context imageAdapterContex;
+
     //constructor
-    public ImageAdapter(Context c){
+    public ImageAdapter(Context c) {
         imageAdapterContex = c;
-    }
-
-    public ImageAdapter() {
-
     }
 
     @Override
     public int getCount() {
         return ThumbImages.length;
     }
+
     @Override
     public Object getItem(int position) {
         return ThumbImages[position];
     }
+
     @Override
     public long getItemId(int position) {
         return 0;
@@ -49,8 +47,7 @@ public class ImageAdapter extends BaseAdapter {
         vt_imageview.setImageResource(ThumbImages[position]);
         vt_imageview.setScaleType(ImageView.ScaleType.CENTER_CROP);
         vt_imageview.setLayoutParams(new GridView.LayoutParams(
-                ViewGroup.LayoutParams.WRAP_CONTENT,
-                300));
+                ViewGroup.LayoutParams.WRAP_CONTENT, 300));
         return vt_imageview;
     }
 }

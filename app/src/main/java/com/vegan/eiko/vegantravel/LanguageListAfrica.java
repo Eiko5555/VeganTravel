@@ -14,7 +14,7 @@ import android.widget.ListView;
 /**
  * Created by eiko on 1/4/2016.
  */
-public class LanguageAfrica extends Fragment {
+public class LanguageListAfrica extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater,
@@ -23,8 +23,8 @@ public class LanguageAfrica extends Fragment {
         View rootview = inflater.inflate(R.layout.language_card,
                 container, false);
         //create adapter and set it listview
-        ListView listview = (ListView)rootview.findViewById(R.id.listview_language);
-        String[] africa= new String[]{"Arabic","French","Swahiri"};
+        ListView listview = rootview.findViewById(R.id.listview_language);
+        String[] africa = new String[]{"Arabic", "French", "Swahiri"};
         ArrayAdapter adapter = new ArrayAdapter<String>(
                 getActivity(), android.R.layout.simple_list_item_1,
                 africa);
@@ -40,7 +40,7 @@ public class LanguageAfrica extends Fragment {
                     Intent intent = new Intent(getActivity(), Veg_french.class);
                     startActivity(intent);
                 } else if (position == 2) {
-                    Intent intent = new Intent(getActivity(),Veg_swahili.class);
+                    Intent intent = new Intent(getActivity(), Veg_swahili.class);
                     startActivity(intent);
                 }
             }

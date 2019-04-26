@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "505340138418",
+    "firebase_url": "https://vegantravel.firebaseio.com",
+    "project_id": "vegantravel",
+    "storage_bucket": "vegantravel.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:505340138418:android:234c15d4b7fa6ad8",
+        "android_client_info": {
+          "package_name": "com.vegan.eiko.vegantravel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "505340138418-26plg2l4ofvknv2h1eqneioa03qml5bk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vegan.eiko.vegantravel",
+            "certificate_hash": "4b43167ac641616d5d9645520fd7fc3187c92373"
+          }
+        },
+        {
+          "client_id": "505340138418-qg14fncbg81tn006lhospqjaab26tbed.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBXcMPhmvedrX7XvhZzHwrRMA4B60sPwA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "505340138418-qg14fncbg81tn006lhospqjaab26tbed.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

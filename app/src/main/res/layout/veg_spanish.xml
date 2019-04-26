@@ -1,24 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="30dp"
-        android:text="Spanish"
-        android:paddingBottom="20dp"
-        android:textStyle="bold"
-        android:layout_gravity="center_horizontal"
-        android:typeface="sans"
-        android:id="@+id/tv_spanish"/>
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_spanish"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:layout_collapseMode="pin"
+        app:popupTheme="@style/AppTheme.PopupOverlay" />
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/spanish"
+        android:id="@+id/tv_spanish"
+        style="@style/translate_tv_title"
+        android:text="Spanish" />
+
+    <TextView
         android:id="@+id/tvSpanish2"
+        style="@style/translate_tv_body"
         android:layout_gravity="center_horizontal"
-        android:textSize="20dp" />
+        android:text="@string/spanish" />
 
 </LinearLayout>

@@ -1,23 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_vietnamese"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:layout_collapseMode="pin"
+        app:popupTheme="@style/AppTheme.PopupOverlay" />
+
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Vietnamese"
         android:id="@+id/tv_vietnamese"
-        android:layout_gravity="center_horizontal"
-        android:paddingBottom="10dp"
-        android:textStyle="bold"
-        android:textSize="30dp"
-        android:typeface="sans" />
+        style="@style/translate_tv_title"
+        android:text="Vietnamese" />
+
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/vietnamese"
         android:id="@+id/tv_vietnamese2"
-        android:layout_gravity="center_horizontal"
-        android:textSize="20dp" />
+        style="@style/translate_tv_body"
+        android:text="@string/vietnamese" />
 
 </LinearLayout>

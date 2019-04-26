@@ -1,95 +1,106 @@
 <resources>
     <string name="app_name">VeganTravel</string>
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="action_settings">Settings</string>
+    <string name="comment_for_image_grid">Hello Vegans! Click any of image to make it large.</string>
 
-    <string name="introductionVegLanguageCaed"> Words in Widely Spoken Langueges :
+    <string name="introductionVegLanguageCaed">Words in Widely Spoken Langueges :
                   Mandarin(Chinese), Spanish, Arabic, Hindi, Russian, Portuguese,
-                  Japanese, German \n  Key Words : Milk, Egg, Butter, Fish,
+                  Japanese, German. \nKey Words : Milk, Egg, Butter, Fish,
                    Shellfish and Meat.</string>
-    <string name="spanish">
-         Dairy: lácteos \n Milk: La Leche \n Egg: Los Huevos \n Cheese: Queso
-        \n Butter: Mantequilla \n Honey: Miel \n Seafood: pescados y mariscos
-        \n Fish: pescado \n Meat:Carne
-        \n\n To Say I am Vegetarian (Male/Female) Yo soy vegetariano / Yo soy vegetariana
+    <string name="spanish">Dairy: lácteos \nMilk: La Leche \nEgg: Los Huevos \nCheese: Queso
+        \nButter: Mantequilla \nHoney: Miel \nSeafood: pescados y mariscos
+        \nFish: pescado \nMeat:Carne
+        \n\nI am Vegetarian (Male/Female) \nMale : Yo soy vegetariano.  Female : Yo soy vegetariana
     </string>
-    <string name="german">
-         Dairy: Molkereiprodukte \n Milk: Milch \n Egg: Eier \n Cheese: Käse
-        \n Butter: Butter \n Honey: Liebling \n Seafood: Fisch und Meeresfrüchte
-        \n Fish:Fisch \n Meat: fleisch
-        \n\n To Say I am vegetarian \n Ich bin Vegetarier.
+    <string name="german">Dairy: Molkereiprodukte \nMilk: Milch \nEgg: Eier \nCheese: Käse
+        \nButter: Butter \nHoney: Liebling \nSeafood: Fisch und Meeresfrüchte
+        \nFish:Fisch \nMeat: fleisch
+        \n\nI am vegetarian : Ich bin Vegetarier.
     </string>
-    <string name="italian">
-         Diary: Latticini \n Milk: Al Latte \n Egg: All uova \n Cheese: formaggio
-        \n Butter: Burro \n Honey: Miele \n Seafood: Frutti di mare \n Fish:Al Pesce
-        \n Meat:Carne
-        \n\n To Say I am vegetarian.(male/female) \n Sono vegetariano / vegetariana
+    <string name="italian">Diary: Latticini \nMilk: Al Latte \nEgg: All uova \nCheese: formaggio
+        \nButter: Burro \nHoney: Miele \nSeafood: Frutti di mare \nFish:Al Pesce
+        \nMeat:Carne
+        \n\nI am vegetarian.(male/female) \nMale : Sono vegetariano. Female : vegetariana
     </string>
-    <string name="french">
-         Diary: Laitier \n Milk: au lait \n Egg: Oeuf \n Cheese: Fromage
-        \n Butter: Beurre \n Honey: Miel \n Seafood: fruits de mer/ \n Fish:crastaces
-        \n Meat: viande
-        \n\n To Say I am vegetarian.(male/female) \n Je suis végétarien./ végétarienne.
+    <string name="french">Diary: Laitier \nMilk: au lait \nEgg: Oeuf \nCheese: Fromage
+        \nButter: Beurre \nHoney: Miel \nSeafood: fruits de mer/ \nFish:crastaces
+        \nMeat: viande
+        \n\nI am vegetarian.(male/female) \nMale : Je suis végétarien.  Female : végétarienne.
     </string>
-    <string name="chinese">
-         Meat: 肉 Ròu \n Milk: 牛奶 Niúnǎi \n Egg: 蛋 Dàn \n Dairy: 乳制品 Rǔ zhìpǐn
-        \n Tree nut: 坚果 Jiānguǒ \n Fish: 鱼 Yú \n Shelfish: 贝类 Bèi lèi
-        \n Wheat: 小麦 Xiǎomài \n Soy: 黄豆 Huángdòu
-        \n\n To Say I am vegetarian. \n 我是素食主义者 \n Wǒ shì sùshí zhǔyì zhě
+    <string name="chinese">Meat: 肉 Ròu \nMilk: 牛奶 Niúnǎi \nEgg: 蛋 Dàn \nDairy: 乳制品 Rǔ zhìpǐn
+        \nTree nut: 坚果 Jiānguǒ \nFish: 鱼 Yú \nShelfish: 贝类 Bèi lèi
+        \nWheat: 小麦 Xiǎomài \nSoy: 黄豆 Huángdòu
+        \n\nI am vegetarian. : 我是素食主义者 ( Wǒ shì sùshí zhǔyì zhě )
     </string>
-    <string name="japanese">
-         Meat: 肉 niku \n Milk: 牛乳 gyuunyuu \n Egg: 卵 tamago \n Dairy: 乳制品 nyuuseihin
-        \n Tree nut: 木の実, ナッツ nattu \n Fish: 魚 sakana \n Shellfish: 貝類 kairui
-        \n Wheat: 小麦 komugi  \n Soy: 大豆 daizu
-        \n\n To say I am vegetarian. \n 私はべジタリアンです。\n Watasi ha bejitalian desu.
+    <string name="japanese">Meat: 肉 niku \nMilk: 牛乳 gyuunyuu \nEgg: 卵 tamago \nDairy: 乳制品 nyuuseihin
+        \nTree nut: 木の実, ナッツ nattu \nFish: 魚 sakana \nShellfish: 貝類 kairui
+        \nWheat: 小麦 komugi  \nSoy: 大豆 daizu
+        \n\nI am vegetarian. : 私はべジタリアンです。(Watasi ha bejitalian desu.)
+        \nI am Vegan. : 私はビーガンです。 (Watashi wa beegan desu)
     </string>
-    <string name="thai"> 
-         Meat: เนื้อ    Neụ̄̂x \n Milk: นม   nm \n Egg: ไข่     K̄hị̀ \n Dairy:  โรงรีดนม   Rong rīd nm
-        \n Tree nut: ถั่ว ต้นไม้    T̄hạ̀w t̂nmị̂ \n Seafood: อาหารทะเล    Xāh̄ār thale
-        \n Fish: ปลา   Plā \n Shellfish: หอย    H̄xy \n Wheat:  ข้าวสาลี   K̄ĥāw s̄ālī
-        \n Soy: ถั่วเหลือง   T̄hạ̀wh̄elụ̄xng 
-        \n\n I am vegetarian.  ฉัน มังสวิรัติ    C̄hạn mạngs̄wirạti
+    <string name="thai">Meat: เนื้อ    Neụ̄̂x \nMilk: นม   nm \nEgg: ไข่     K̄hị̀ \nDairy:  โรงรีดนม   Rong rīd nm
+        \nTree nut: ถั่ว ต้นไม้    T̄hạ̀w t̂nmị̂ \nSeafood: อาหารทะเล    Xāh̄ār thale
+        \nFish: ปลา   Plā \nShellfish: หอย    H̄xy \nWheat:  ข้าวสาลี   K̄ĥāw s̄ālī
+        \nSoy: ถั่วเหลือง   T̄hạ̀wh̄elụ̄xng
+        \n\nI am vegetarian. : ฉัน มังสวิรัติ (C̄hạn mạngs̄wirạti)
     </string>
-    <string name="korean">
-         Meat: 고기  gogi \n Milk: 우유  uyu \n Egg: 달걀  dalgyal \n Dairy: 낙농  nagnong
-        \n Tree nut: 나무 너트 namu neoteu \n Fish: 물고기  mulgogi \n Shellfish: 조개  jogae
-        \n Seafood: 해산물  haesanmul \n Wheat: 밀  mil \n Soy: 간장  ganjang
-        \n\n I am vegetarian.  난 채식주의  nan chaesigjuui.
+    <string name="korean">Meat: 고기  gogi \nMilk: 우유  uyu \nEgg: 달걀  dalgyal \nDairy: 낙농  nagnong
+        \nTree nut: 나무 너트 namu neoteu \nFish: 물고기  mulgogi \nShellfish: 조개  jogae
+        \nSeafood: 해산물  haesanmul \nWheat: 밀  mil \nSoy: 간장  ganjang
+        \n\nI am vegetarian. : 난 채식주의 (nan chaesigjuui.)
     </string>
-    <string name="filipino">
-         Meat: karne \n Milk: gatas \n Egg: itlog \n Dairy: pagawaan ng gatas
-        \n Tree nut: puno kulay ng nuwes \n Fish: isda \n Shellfish:  molusko
-        \n Seafood: pagkaing-dagat \n Wheat: trigo \n Soy:  toyo
-        \n\n To Say I am vegetarian. : ako ay walang karne
+    <string name="filipino">Meat: karne \nMilk: gatas \nEgg: itlog \nDairy: pagawaan ng gatas
+        \nTree nut: puno kulay ng nuwes \nFish: isda \nShellfish:  molusko
+        \nSeafood: pagkaing-dagat \nWheat: trigo \nSoy:  toyo
+        \n\nI am vegetarian. : ako ay walang karne
     </string>
-    <string name="russian">
-         Meat: мясо  myaso \n Milk: молоко  moloko \n Egg: яйцо  yaytso
-        \n Dairy: молочные продукты   molochnyye produkty \n Tree nut: дерево Орех  derevo Orekh
-        \n Fish: рыба  ryba \n Shellfish: моллюск   mollyusk \n Seafood: морепродукты   moreprodukty
-        \n Wheat: шеница   pshenitsa \n Soy: соевый   soyevyy
-        \n\n I am vegetarian.  я вегетарианец  ya vegetarianets.
+    <string name="russian">Meat: мясо  myaso \nMilk: молоко  moloko \nEgg: яйцо  yaytso
+        \nDairy: молочные продукты   molochnyye produkty \nTree nut: дерево Орех  derevo Orekh
+        \nFish: рыба  ryba \n Shellfish: моллюск   mollyusk \nSeafood: морепродукты   moreprodukty
+        \nWheat: шеница   pshenitsa \nSoy: соевый   soyevyy
+        \n\nI am vegetarian. : я вегетарианец  ya vegetarianets.
     </string>
-    <string name="hindi">
-         Meat: मांस  maans \n Milk: दूध  duudh \n Egg: अंडा  anda \n Dairy: डेयरी  Deeyaree
-        \n Tree nut: पेड़ का अखरोट  peer ka akharoot \n Fish: मछली  machalee
-        \n Shellfish: कस्तूरा  kastuura \n Seafood: सीफ़ूड  seefuud \n Wheat: गेहूँ  geehuun
-        \n Soy: सोया  sooya
+    <string name="hindi">Meat: मांस  maans \nMilk: दूध  duudh \nEgg: अंडा  anda \nDairy: डेयरी  Deeyaree
+        \nTree nut: पेड़ का अखरोट  peer ka akharoot \nFish: मछली  machalee
+        \nShellfish: कस्तूरा  kastuura \nSeafood: सीफ़ूड  seefuud \nWheat: गेहूँ  geehuun
+        \nSoy: सोया  sooya
         \n\n I am vegetarian. मैं शाकाहारी हूं  Main shaakaahaaree huun
-        \n I am strict vegetarian  मैं सख्त शाकाहारी हूँ   Main sakht shaakaahaaree huun
-        \n I am vegan. मैं शाकाहारी हूँ   Main shaakaahaaree huun
+        \n I am strict vegetarian : मैं सख्त शाकाहारी हूँ   Main sakht shaakaahaaree huun
+        \n I am vegan. : मैं शाकाहारी हूँ   Main shaakaahaaree huun
     </string>
-    <string name="vietnamese">
-         Meat: thịt  tit \n Milk: sữa  sua \n Egg: trứng  trung \n Dairy: xưởng trử sữa
-        \n Tree nut: hạt cây \n Fish: cá \n Shellfish: động vật có vỏ  
-        \n Seafood: động vật có vỏ \n Wheat: lúa mì \n Soy: nước tương 
-        \n\n I am vegetarian.  tôi ăn chay.
+    <string name="vietnamese">Meat: thịt  tit \nMilk: sữa  sua \nEgg: trứng  trung \nDairy: xưởng trử sữa
+        \nTree nut: hạt cây \n Fish: cá \nShellfish: động vật có vỏ
+        \nSeafood: động vật có vỏ \nWheat: lúa mì \nSoy: nước tương
+        \n\n I am vegetarian. : tôi ăn chay.
     </string>
-    <string name="portuguese">
-         Meat: carne \n Milk: leite \n Egg: ovo \n Dairy: laticínios
-        \n Tree nut: porca da árvore \n Fish: Peixe \n Shellfish: marisco
-        \n Seafood: frutos do mar \n Wheat: trigo \n Soy: soja
+    <string name="portuguese">Meat: carne \nMilk: leite \nEgg: ovo \nDairy: laticínios
+        \nTree nut: porca da árvore \nFish: Peixe \nShellfish: marisco
+        \nSeafood: frutos do mar \nWheat: trigo \nSoy: soja
         \n To say..I am Vegetarian.
-        \n\n I am vegetarian.  Sou vegetariano.
+        \n\n I am vegetarian. : Sou vegetariano.
     </string>
+    <string name="arabic">"Meat: lahm  لحم \nMilk: halib حليب
+        \nEgg: baydatan بيضة \nDairy: muntajat al\'alban  منتجات الألبان
+        \nTree nut: shajarat aljuz  شجرة الجوز \nFish: sammak  سمك
+        \nShellfish: mahar  محار \nWheat: qamah  قمح
+        \nSoy: alssawia الصويا
+        \n\nI am Vegetarian.(Female/Male) \nFemale : Ana Nabatee. Male :  Natbateeya.
+        \n نا نباتي
+        \n\nI don't eat meat or chicken at all. \nMish Akol Lahma walla Ferekh khalis"</string>
+
+    <string name="swahili">Meat: nyama \nMilk: maziwa \n
+        Egg: yai \nDairy: maziwa \nTree nut: mti mbegu za mafuta \nFish: samaki
+        \nShellfish: samakigamba \nSeafood: dagaa
+        \nWheat: ngano \nSoy: soy
+        \n\nI am vegetarian. : I am mboga.</string>
+
+    <string name="image_content_discription">vegan image</string>
+    <string name="gridview_image_contentdiscription">list of vegan image</string>
+    <string name="admob_id">ca-app-pub-mynumber</string>
+    <string name="admob_id_banner">ca-app-pub-mynumber</string>
+    <string name="badconfig">Please configure gloabal_tracker.xml</string>
+    <string name="appbar_scrolling_view_behavior" translatable="false">
+        android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="appbar_title">Vegan Travel</string>
+    <string name="Share">share_icon</string>
 </resources>

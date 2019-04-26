@@ -14,7 +14,7 @@ import android.widget.ListView;
 /**
  * Created by eiko on 1/4/2016.
  */
-public class LanguageASIA extends Fragment {
+public class LanguageListASIA extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -22,13 +22,12 @@ public class LanguageASIA extends Fragment {
         View rootview = inflater.inflate(R.layout.language_card,
                 container, false);
         //create adapter and set it listview
-        ListView listview = (ListView) rootview.findViewById(R.id.listview_language);
+        ListView listview = rootview.findViewById(R.id.listview_language);
         String[] asia = new String[]{"Chinese", "Arabic", "Filipino", "Japanese",
                 "Korean", "Rossian", "Thai", "Vietnamese"};
         ArrayAdapter adapter = new ArrayAdapter<String>(
                 getActivity(), android.R.layout.simple_list_item_1,
                 asia);
-        //setListAdapter(adapter);
         listview.setAdapter(adapter);
         listview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
@@ -66,37 +65,9 @@ public class LanguageASIA extends Fragment {
                         Intent intent8 = new Intent(getActivity(), Veg_vietnamese.class);
                         startActivity(intent8);
                         break;
-                    }
+                }
             }
         });
         return rootview;
     }
 }
-        /*@Override
-        public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-            if (position == 0) {
-                Intent intent = new Intent(getActivity(), Veg_chinese.class);
-                startActivity(intent);
-            } else if (position == 1) {
-                Intent intent = new Intent(getActivity(), Veg_arabic.class);
-                startActivity(intent);
-            } else if (position == 2) {
-                Intent intent = new Intent(getActivity(),Veg_filipino.class);
-                startActivity(intent);
-            }else if (position == 3) {
-                Intent intent = new Intent(getActivity(), Veg_japanese.class);
-                startActivity(intent);
-            } else if (position == 4) {
-                Intent intent = new Intent(getActivity(),Veg_korean.class);
-                startActivity(intent);
-            }else if (position == 5) {
-                Intent intent = new Intent(getActivity(), Veg_russian.class);
-                startActivity(intent);
-            } else if (position == 6) {
-                Intent intent = new Intent(getActivity(),Veg_thai.class);
-                startActivity(intent);
-            }else if(position == 7) {
-                Intent intent = new Intent(getActivity(), Veg_vietnamese.class);
-                startActivity(intent);
-            }
-    }*/

@@ -1,3 +1,4 @@
+
 package com.vegan.eiko.vegantravel;
 
 import android.content.Intent;
@@ -14,7 +15,7 @@ import android.widget.ListView;
 /**
  * Created by eiko on 1/4/2016.
  */
-public class LanguageEU extends Fragment {
+public class LanguageListEU extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -22,12 +23,11 @@ public class LanguageEU extends Fragment {
         View rootview = inflater.inflate(R.layout.language_card,
                 container, false);
         //create adapter and set it listview
-        ListView listview = (ListView) rootview.findViewById(R.id.listview_language);
-        String[] EU = new String[]{"Italian","French","German","Spanish","Arabic"};
+        ListView listview = rootview.findViewById(R.id.listview_language);
+        String[] EU = new String[]{"Italian", "French", "German", "Spanish", "Arabic"};
         ArrayAdapter adapter = new ArrayAdapter<String>(
                 getActivity(), android.R.layout.simple_list_item_1,
                 EU);
-        //setListAdapter(adapter);
         listview.setAdapter(adapter);
         listview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override //italian, french, german, spanish, arabic
