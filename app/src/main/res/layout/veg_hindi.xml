@@ -13,7 +13,7 @@
         app:popupTheme="@style/AppTheme.PopupOverlay" />
 
     <TextView
-        android:id="@+id/tv_hindi"
+        android:id="@+id/tv_hindi_title"
         style="@style/translate_tv_title"
         android:text="Hindi" />
 

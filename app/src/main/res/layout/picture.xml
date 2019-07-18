@@ -22,7 +22,7 @@
     <GridView
         android:id="@+id/VegTravel_gridView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_below="@+id/VegTravel_containMain_textView"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
@@ -44,6 +44,6 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
         ads:adSize="BANNER"
-        ads:adUnitId="@string/admob_id_banner" />
+        ads:adUnitId="@string/test_admob_id_banner" />
 
 </RelativeLayout>

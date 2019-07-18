@@ -20,7 +20,7 @@ public class LanguageListEU extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View rootview = inflater.inflate(R.layout.language_card,
+        View rootview = inflater.inflate(R.layout.language_card_listview,
                 container, false);
         //create adapter and set it listview
         ListView listview = rootview.findViewById(R.id.listview_language);

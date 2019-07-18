@@ -7,4 +7,9 @@
         android:orderInCategory="100"
         app:showAsAction="always"
         android:icon="@android:drawable/ic_menu_share"/>
+    <item android:id="@+id/mHistory"
+        android:title="@string/History"
+        app:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_recent_history"
+        />
 </menu>

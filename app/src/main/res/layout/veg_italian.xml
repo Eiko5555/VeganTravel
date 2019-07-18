@@ -13,12 +13,12 @@
         app:popupTheme="@style/AppTheme.PopupOverlay" />
 
     <TextView
-        android:id="@+id/textView7"
+        android:id="@+id/tv_italian_title"
         style="@style/translate_tv_title"
         android:text="Italian" />
 
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/tv_italian2"
         style="@style/translate_tv_body"
         android:text="@string/italian" />
 </LinearLayout>

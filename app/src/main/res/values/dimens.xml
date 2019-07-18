@@ -8,5 +8,7 @@
     <dimen name="fab_margin">16dp</dimen>
     <dimen name="padding_text_translate10">10dp</dimen>
     <dimen name="padding5">5dp</dimen>
-    <dimen name="actionbar_elebation4">4dp</dimen>
+    <dimen name="actionbar_elevation4">4dp</dimen>
+    <dimen name="image_width">200dp</dimen>
+    <dimen name="image_height">130dp</dimen>
 </resources>

@@ -13,9 +13,9 @@
         app:popupTheme="@style/AppTheme.PopupOverlay" />
 
     <TextView
-        android:id="@+id/tv_french"
+        android:id="@+id/tv_french_title"
         style="@style/translate_tv_title"
-        android:text="French" />
+        android:text="@string/title_french" />
 
     <TextView
         android:id="@+id/tv_french2"

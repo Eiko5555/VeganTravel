@@ -2,6 +2,7 @@ package com.vegan.eiko.vegantravel;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -9,19 +10,36 @@ import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
 
 import com.google.firebase.analytics.FirebaseAnalytics;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.GenericTypeIndicator;
+import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class MainActivity extends AppCompatActivity {
     private ViewPager viewpager;
     private FirebaseAnalytics mFirebaseAlalytics;
     private Toolbar toolbar;
+    private HashMap<String, String> hashMap;
+    private List<String> titleStringData;
+    private String title;
+    private Intent intentTitle;
+    private Bundle bundle;
+    private FirebaseDatabase firebaseDatabase;
+    private DatabaseReference databaseReference;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -64,6 +82,33 @@ public class MainActivity extends AppCompatActivity {
                 });
     }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
+        databaseReference = FirebaseDatabase.getInstance().getReference();
+        /*if title has value add. add to HashMap*/
+        hashMap = new HashMap<>();
+        hashMap.put("Arabic", Veg_arabic.titleStringArabic);
+        hashMap.put("Filipino", Veg_filipino.titleStringFilipino);
+        hashMap.put("French", Veg_french.titleStringFrench);
+        hashMap.put("German", Veg_german.titleStringGerman);
+        hashMap.put("Hindi", Veg_hindi.titleStringHindi);
+        hashMap.put("Italian", Veg_Italian.titleStringItalian);
+        hashMap.put("Japanese", Veg_japanese.titleStringJapanese);
+        hashMap.put("Korean", Veg_korean.titleStringKorean);
+        hashMap.put("Portuguese", Veg_portuguese.titleStringPortuguese);
+        hashMap.put("Russian", Veg_russian.titleStringRussian);
+        hashMap.put("Spanish", Veg_spanish.titleStringSpanish);
+        hashMap.put("Swahili", Veg_swahili.titleStringSwahili);
+        hashMap.put("Thai", Veg_thai.titleStringThai);
+        hashMap.put("Vietnamese", Veg_vietnamese.titleStringVietnamese);
+
+        if (hashMap != null) {
+            Log.i("test in mainactivity", hashMap.toString());
+            databaseReference.setValue(hashMap);
+        }
+    }
+
     private void setupViewPager(ViewPager viewpPager) {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
         adapter.addFRAG(new Picture_tab(), "picture");
@@ -80,6 +125,7 @@ public class MainActivity extends AppCompatActivity {
         return super.onCreateOptionsMenu(menu);
     }
 
+    //share button on tool bar
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
@@ -89,6 +135,11 @@ public class MainActivity extends AppCompatActivity {
                 intent.setType("text/plain");
                 intent.putExtra(Intent.EXTRA_TEXT, "Vegan Travel App");
                 startActivity(Intent.createChooser(intent, "Vegan Travel"));
+                break;
+            case R.id.mHistory:
+                Intent intentHistory = new Intent(
+                        getApplicationContext(), history_list.class);
+                startActivity(intentHistory);
                 break;
         }
         return super.onOptionsItemSelected(item);
@@ -122,4 +173,5 @@ public class MainActivity extends AppCompatActivity {
             return fragmentTitle_VT.get(position);
         }
     }
+
 }
