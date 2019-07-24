@@ -7,8 +7,10 @@ import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
+import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.TextView;
 
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -29,6 +31,7 @@ public class history_list extends AppCompatActivity {
     Map<String, String> map;
     ArrayAdapter<String> arrayAdapter;
     List<String> list;
+    TextView empty_text;
 
 
     @Override
@@ -39,6 +42,7 @@ public class history_list extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         context = this;
+        empty_text = findViewById(R.id.empty_comment);
         listView = findViewById(R.id.history_listview);
         mRef = FirebaseDatabase.getInstance().getReferenceFromUrl(url);
         mRef.addValueEventListener(new ValueEventListener() {
@@ -47,16 +51,20 @@ public class history_list extends AppCompatActivity {
                     @NonNull final DataSnapshot dataSnapshot) {
                 map = (HashMap<String, String>) dataSnapshot.getValue();
                 if (map != null) {
+                    empty_text.setVisibility(View.GONE);
                     list = new ArrayList<>();
                     for (HashMap.Entry<String, String> M : map.entrySet()) {
                         list.add(M.getKey());
                         Log.i("history3", list.toString());
                     }
+                    arrayAdapter =
+                            new ArrayAdapter<>(context,
+                                    android.R.layout.simple_list_item_1, list);
+                    listView.setAdapter(arrayAdapter);
+                }else {
+                    empty_text.setVisibility(View.VISIBLE);
+                    empty_text.setText(R.string.empty_text_comment);
                 }
-                arrayAdapter =
-                        new ArrayAdapter<>(context,
-                                android.R.layout.simple_list_item_1, list);
-                listView.setAdapter(arrayAdapter);
             }
 
             @Override

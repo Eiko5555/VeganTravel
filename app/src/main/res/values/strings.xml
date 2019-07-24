@@ -84,9 +84,8 @@
         \nTree nut: shajarat aljuz  شجرة الجوز \nFish: sammak  سمك
         \nShellfish: mahar  محار \nWheat: qamah  قمح
         \nSoy: alssawia الصويا
-        \n\nI am Vegetarian.(Female/Male) \nFemale : Ana Nabatee. \nMale :  Natbateeya.
-        \n نا نباتي
-        \n\nI don't eat meat or chicken at all. \nMish Akol Lahma walla Ferekh khalis"</string>
+        \nI am Vegetarian.(Female/Male) \nFemale : Ana Nabatee. \nMale :  Natbateeya.
+        \nI don't eat meat or chicken at all. \nMish Akol Lahma walla Ferekh khalis"</string>
 
     <string name="swahili">Meat: nyama \nMilk: maziwa \n
         Egg: yai \nDairy: maziwa \nTree nut: mti mbegu za mafuta \nFish: samaki
@@ -106,4 +105,5 @@
     <string name="title_french">French</string>
     <string name="History">History</string>
     <string name="history_title">History(Viewed languages)</string>
+    <string name="empty_text_comment">No viewed card yet.</string>
 </resources>

@@ -33,13 +33,7 @@ public class MainActivity extends AppCompatActivity {
     private FirebaseAnalytics mFirebaseAlalytics;
     private Toolbar toolbar;
     private HashMap<String, String> hashMap;
-    private List<String> titleStringData;
-    private String title;
-    private Intent intentTitle;
-    private Bundle bundle;
-    private FirebaseDatabase firebaseDatabase;
     private DatabaseReference databaseReference;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -14,6 +14,7 @@ import com.squareup.picasso.Picasso;
  * Created by eiko on 11/23/2015.
  */
 public class Full_Image_Activity extends AppCompatActivity {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
