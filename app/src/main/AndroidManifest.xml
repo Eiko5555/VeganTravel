@@ -6,6 +6,8 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
+    <!--<uses-permission android:name="android.permission.BIND_APPWIDGET"/>-->
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -93,6 +95,18 @@
         <activity android:name=".history_list"
             android:label="@string/history_title"
             android:parentActivityName=".MainActivity"/>
+        <activity android:name=".AppWidgetConfigure">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE"/>
+            </intent-filter>
+        </activity>
+        <receiver android:name=".AppWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data android:name="@string/app_name"
+                android:resource="@xml/appwidget_info"/>
+        </receiver>
 
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
