@@ -10,10 +10,7 @@ public class AppWidgetProvider extends android.appwidget.AppWidgetProvider {
 @Override
     public void onUpdate(Context context, AppWidgetManager appWidgetManager
     , int[] appWidgetIds){
-        final int N = appWidgetIds.length;
 
-//        for (int i=0; i<N; i++){
-//            int appwideget= appWidgetIds[1];
         for (int appwideget : appWidgetIds){
             //For Intent to launch app(Mainactivity).
             Intent intent = new Intent(context, MainActivity.class);
