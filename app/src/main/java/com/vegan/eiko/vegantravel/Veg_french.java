@@ -3,6 +3,7 @@ package com.vegan.eiko.vegantravel;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.text.method.ScrollingMovementMethod;
 import android.util.Log;
 import android.widget.TextView;
 
@@ -24,5 +25,8 @@ public class Veg_french extends AppCompatActivity {
         TextView textViewTitle = findViewById(R.id.tv_french_title);
         titleStringFrench = textViewTitle.getText().toString();
         Log.i("French Title", titleStringFrench);
+        TextView textView = findViewById(R.id.tv_french2);
+        textView.setMovementMethod(new ScrollingMovementMethod());
+        
     }
 }

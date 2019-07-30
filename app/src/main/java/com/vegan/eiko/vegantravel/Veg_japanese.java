@@ -3,6 +3,7 @@ package com.vegan.eiko.vegantravel;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.text.method.ScrollingMovementMethod;
 import android.widget.TextView;
 
 /**
@@ -18,6 +19,8 @@ public class Veg_japanese extends AppCompatActivity {
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
+        TextView textView = findViewById(R.id.tv_japanese2);
+        textView.setMovementMethod(new ScrollingMovementMethod());
         TextView tv_title = findViewById(R.id.tv_japanese_title);
         titleStringJapanese = tv_title.getText().toString();
     }

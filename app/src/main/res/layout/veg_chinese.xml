@@ -20,6 +20,7 @@
     <TextView
         android:id="@+id/tv_chinese2"
         style="@style/translate_tv_body"
+        android:scrollbars="vertical"
         android:text="@string/chinese" />
 
 </LinearLayout>
