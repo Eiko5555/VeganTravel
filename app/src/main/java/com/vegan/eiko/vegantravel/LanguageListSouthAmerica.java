@@ -25,7 +25,7 @@ public class LanguageListSouthAmerica extends Fragment {
                 container, false);
         //create adapter and set it listview
         ListView listview = rootview.findViewById(R.id.listview_language);
-        String[] northAmerica = new String[]{"Portugues", "Spanish"};
+        String[] northAmerica = new String[]{"Portuguese", "Spanish"};
         ArrayAdapter adapter = new ArrayAdapter<String>(
                 getActivity(), android.R.layout.simple_list_item_1,
                 northAmerica);

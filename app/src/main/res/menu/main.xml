@@ -2,14 +2,15 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".MainActivity">
-    <item android:id="@+id/mShare"
-        android:title="@string/Share"
+    <item
+        android:id="@+id/mShare"
+        android:icon="@android:drawable/ic_menu_share"
         android:orderInCategory="100"
-        app:showAsAction="always"
-        android:icon="@android:drawable/ic_menu_share"/>
-    <item android:id="@+id/mHistory"
-        android:title="@string/History"
-        app:showAsAction="always"
+        android:title="@string/Share"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/mHistory"
         android:icon="@android:drawable/ic_menu_recent_history"
-        />
+        android:title="@string/History"
+        app:showAsAction="always" />
 </menu>

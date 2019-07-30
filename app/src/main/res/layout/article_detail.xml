@@ -14,7 +14,6 @@
         android:id="@+id/up_container"
         android:layout_width="match_parent"
         android:layout_height="?actionBarSize"
-        android:background="@android:color/transparent">
+        android:background="@android:color/transparent"/>
 
-    </FrameLayout>
 </android.support.design.widget.CoordinatorLayout>

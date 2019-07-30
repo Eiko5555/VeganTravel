@@ -16,11 +16,11 @@
     <TextView
         android:id="@+id/tv_arabic_title"
         style="@style/translate_tv_title"
-        android:text="Arabic" />
+        android:text="@string/title_arabic" />
 
     <TextView
         android:id="@+id/tv_arabic2"
         style="@style/translate_tv_body"
         android:scrollbars="vertical"
         android:text="@string/arabic" />
-</LinearLayout><!--android:text="Meat: lahm  لحم \nMilk: halib حليب--><!--\nEgg: baydatan بيضة \nDairy: muntajat al\'alban  منتجات الألبان--><!--\nTree nut: shajarat aljuz  شجرة الجوز \nFish: sammak  سمك--><!--\nShellfish: mahar  محار \nWheat: qamah  قمح--><!--\nSoy: alssawia الصويا--><!--\n\nI am Vegetarian.(Female/Male) \nFemale : Ana Nabatee. Male :  Natbateeya. \n--><!--\u200Fنا نباتي--><!--\n\nI don't eat meat or chicken at all. \nMish Akol Lahma walla Ferekh khalis"-->
+</LinearLayout>

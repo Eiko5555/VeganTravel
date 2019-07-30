@@ -15,7 +15,7 @@
     <TextView
         android:id="@+id/tv_spanish_title"
         style="@style/translate_tv_title"
-        android:text="Spanish" />
+        android:text="@string/title_spanish" />
 
     <TextView
         android:id="@+id/tvSpanish2"

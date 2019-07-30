@@ -47,11 +47,9 @@ public class ImageAdapter extends BaseAdapter {
         vt_imageview.setImageResource(ThumbImages[position]);
         vt_imageview.setScaleType(ImageView.ScaleType.FIT_XY);
         vt_imageview.setLayoutParams(new GridView.LayoutParams(
-//                ViewGroup.LayoutParams.MATCH_PARENT, 200)
                 ViewGroup.LayoutParams.MATCH_PARENT,
                 (int)imageAdapterContex.getResources().getDimension(R.dimen.image_height)
         ));
         return vt_imageview;
     }
-
 }

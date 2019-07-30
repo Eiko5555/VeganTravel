@@ -24,15 +24,14 @@ import java.util.List;
 import java.util.Map;
 
 public class history_list extends AppCompatActivity {
-    ListView listView;
-    Context context;
-    DatabaseReference mRef;
-    String url = "https://vegantravel.firebaseio.com/";
-    Map<String, String> map;
-    ArrayAdapter<String> arrayAdapter;
-    List<String> list;
-    TextView empty_text;
-
+    private ListView listView;
+    private Context context;
+    private DatabaseReference mRef;
+    private String url = "https://vegantravel.firebaseio.com/";
+    private Map<String, String> map;
+    private ArrayAdapter<String> arrayAdapter;
+    private List<String> list;
+    private TextView empty_text;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
