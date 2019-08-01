@@ -120,4 +120,5 @@
     <string name="title_vietnamese">Vietnamese</string>
     <string name="title_arabic">Arabic</string>
     <string name="share_comment">Vegan Travel App</string>
+    <string name="widget_imageview_discription">Vegan image for widget</string>
 </resources>

@@ -3,7 +3,8 @@ apply plugin: 'com.android.application'
 android {
     signingConfigs {
         debug {
-            storeFile file('C:\\Users\\eiko0\\upload-keystore.jks')
+//            storeFile file('C:\\Users\\eiko0\\keystore\\signing.jks')
+            storeFile file('keystore/signing.jks')
             keyPassword 'Otaku55'
             storePassword 'PasokonOtaku1'
             keyAlias = 'upload'

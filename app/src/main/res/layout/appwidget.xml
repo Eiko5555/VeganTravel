@@ -5,9 +5,20 @@
     android:padding="@dimen/widget_margin">
 
         <ImageView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/widget_imageView"
-            android:src="@drawable/vegan_certified"/>
+            android:src="@drawable/vegan_certified"
+            android:contentDescription="@string/widget_imageview_discription" />
+
+        <TextView
+            android:id="@+id/widget_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textSize="@android:dimen/app_icon_size"
+            android:layout_below="@id/widget_imageView"
+            android:gravity="center_horizontal"/>
+
 
 </RelativeLayout>
