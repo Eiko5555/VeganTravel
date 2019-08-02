@@ -5,8 +5,8 @@ android {
         debug {
 //            storeFile file('C:\\Users\\eiko0\\keystore\\signing.jks')
             storeFile file('keystore/signing.jks')
-            keyPassword 'Otaku55'
-            storePassword 'PasokonOtaku1'
+            keyPassword 'xxxxxx'
+            storePassword 'xxxxxx'
             keyAlias = 'upload'
         }
     }
@@ -28,7 +28,7 @@ android {
             signingConfig signingConfigs.debug
         }
         release {
-            signingConfig signingConfigs.debug
+            signingConfig  signingConfigs.debug
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
