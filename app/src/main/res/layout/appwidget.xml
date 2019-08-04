@@ -4,7 +4,6 @@
     android:layout_height="match_parent"
     android:padding="@dimen/widget_margin">
 
-
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="100dp"
@@ -16,14 +15,11 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:textStyle="bold"
-            android:text="@string/history_title"/>
+            android:text="@string/history_title" />
 
         <ListView
-            android:id="@+id/wide_listview"
+            android:id="@+id/widget_listview"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
-
-
-
+            android:layout_height="wrap_content" />
 
 </LinearLayout>

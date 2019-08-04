@@ -121,4 +121,9 @@
     <string name="title_arabic">Arabic</string>
     <string name="share_comment">Vegan Travel App</string>
     <string name="widget_imageview_discription">Vegan image for widget</string>
+    <string name="firebase_url">https://vegantravel.firebaseio.com/</string>
+    <string name="widget_no_history_txt">No history to show now.</string>
+    <string name="contentDescriptionButton">Button to load image.</string>
+    <string name="searchTab_image_contentdescription">image</string>
+    <string name="button_comment">Press to load Vegan cooking Tip image.</string>
 </resources>

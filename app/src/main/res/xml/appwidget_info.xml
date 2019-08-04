@@ -7,6 +7,4 @@
     android:initialLayout="@layout/appwidget"
     android:widgetCategory="home_screen"
     android:resizeMode="horizontal|vertical"
-    android:previewImage="@mipmap/ic_veglogo">
-
-</appwidget-provider>
+    android:previewImage="@mipmap/ic_veglogo"/>

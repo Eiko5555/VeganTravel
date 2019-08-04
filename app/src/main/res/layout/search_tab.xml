@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_vertical_margin">
+
+    <Button
+        android:id="@+id/button_load_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/contentDescriptionButton"
+        android:gravity="center_horizontal"
+        android:text="@string/button_comment"/>
+
+    <ImageView
+        android:id="@+id/img_search_tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/forty"
+        android:contentDescription="@string/searchTab_image_contentdescription" />
+
+
+</LinearLayout>

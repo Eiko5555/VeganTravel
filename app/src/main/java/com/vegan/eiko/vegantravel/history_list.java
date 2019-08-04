@@ -54,7 +54,7 @@ public class history_list extends AppCompatActivity {
                     list = new ArrayList<>();
                     for (HashMap.Entry<String, String> M : map.entrySet()) {
                         list.add(M.getKey());
-                        Log.i("history3", list.toString());
+                        Log.i("history list", list.toString());
                     }
                     arrayAdapter =
                             new ArrayAdapter<>(context,
