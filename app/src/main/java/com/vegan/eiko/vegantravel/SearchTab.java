@@ -26,7 +26,7 @@ public class SearchTab extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.search_tab, container,false);
+        View view = inflater.inflate(R.layout.search_tab, container, false);
         button = view.findViewById(R.id.button_load_image);
         image = view.findViewById(R.id.img_search_tab);
         button.setOnClickListener(new View.OnClickListener() {
@@ -39,8 +39,9 @@ public class SearchTab extends Fragment {
         return view;
     }
 
-    public class StartAyncTask extends AsyncTask<String, Void, Bitmap>{
-        public StartAyncTask(){}
+    public class StartAyncTask extends AsyncTask<String, Void, Bitmap> {
+        public StartAyncTask() {
+        }
 
         @Override
         protected void onPreExecute() {
@@ -49,7 +50,7 @@ public class SearchTab extends Fragment {
 
         @Override
         protected Bitmap doInBackground(String... params) {
-            Log.i("asynctask","start");
+            Log.i("asynctask", "start");
             String url = params[0];
             Bitmap bitmap = null;
             try {

@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
         /*if title has value add. add to HashMap*/
         hashMap = new HashMap<>();
         hashMap.put("Arabic", Veg_arabic.titleStringArabic);
-        hashMap.put("Chinese",Veg_chinese.titleStringChinese);
+        hashMap.put("Chinese", Veg_chinese.titleStringChinese);
         hashMap.put("Filipino", Veg_filipino.titleStringFilipino);
         hashMap.put("French", Veg_french.titleStringFrench);
         hashMap.put("German", Veg_german.titleStringGerman);
@@ -105,7 +105,7 @@ public class MainActivity extends AppCompatActivity {
         adapter.addFRAG(new LanguageListASIA(), "Language Card \n Asia");
         adapter.addFRAG(new LanguageListEU(), "Language Card \n Europe");
         adapter.addFRAG(new LanguageListAfrica(), "Language Card\n Africa");
-        adapter.addFRAG(new SearchTab(),"Search");
+        adapter.addFRAG(new SearchTab(), "Search");
         viewpPager.setAdapter(adapter);
     }
 
@@ -114,6 +114,7 @@ public class MainActivity extends AppCompatActivity {
         getMenuInflater().inflate(R.menu.main, menu);
         return super.onCreateOptionsMenu(menu);
     }
+
     //share button on tool bar
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
