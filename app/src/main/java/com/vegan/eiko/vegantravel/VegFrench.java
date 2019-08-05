@@ -10,7 +10,7 @@ import android.widget.TextView;
 /**
  * Created by eiko on 10/8/2015.
  */
-public class Veg_french extends AppCompatActivity {
+public class VegFrench extends AppCompatActivity {
     public static String titleStringFrench;
     @Override
     protected void onCreate(Bundle savedInstanceState) {

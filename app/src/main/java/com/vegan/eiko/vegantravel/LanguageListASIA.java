@@ -34,35 +34,35 @@ public class LanguageListASIA extends Fragment {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 switch (position) {
                     case 0:
-                        Intent intent = new Intent(getActivity(), Veg_chinese.class);
+                        Intent intent = new Intent(getActivity(), VegChinese.class);
                         startActivity(intent);
                         break;
                     case 1:
-                        Intent intent2 = new Intent(getActivity(), Veg_arabic.class);
+                        Intent intent2 = new Intent(getActivity(), VegArabic.class);
                         startActivity(intent2);
                         break;
                     case 2:
-                        Intent intent3 = new Intent(getActivity(), Veg_filipino.class);
+                        Intent intent3 = new Intent(getActivity(), VegFilipino.class);
                         startActivity(intent3);
                         break;
                     case 3:
-                        Intent intent4 = new Intent(getActivity(), Veg_japanese.class);
+                        Intent intent4 = new Intent(getActivity(), VegJapanese.class);
                         startActivity(intent4);
                         break;
                     case 4:
-                        Intent intent5 = new Intent(getActivity(), Veg_korean.class);
+                        Intent intent5 = new Intent(getActivity(), VegKorean.class);
                         startActivity(intent5);
                         break;
                     case 5:
-                        Intent intent6 = new Intent(getActivity(), Veg_russian.class);
+                        Intent intent6 = new Intent(getActivity(), VegRussian.class);
                         startActivity(intent6);
                         break;
                     case 6:
-                        Intent intent7 = new Intent(getActivity(), Veg_thai.class);
+                        Intent intent7 = new Intent(getActivity(), VegThai.class);
                         startActivity(intent7);
                         break;
                     case 7:
-                        Intent intent8 = new Intent(getActivity(), Veg_vietnamese.class);
+                        Intent intent8 = new Intent(getActivity(), VegVietnamese.class);
                         startActivity(intent8);
                         break;
                 }

@@ -30,6 +30,8 @@ public class Full_Image_Activity extends AppCompatActivity {
                 new ImageAdapter(this);
         ImageView full_imageView = findViewById(R.id.vt_full_image_view);
         Picasso.get().load(full_imageAdapter.ThumbImages[image_position])
+             //while loading   .placeholder(R.drawable.vegan_certified)
+              //if error happens  .error(R.drawable.vegan_certified)
                 .into(full_imageView);
 
         AdView adView = findViewById(R.id.adView_full_image);

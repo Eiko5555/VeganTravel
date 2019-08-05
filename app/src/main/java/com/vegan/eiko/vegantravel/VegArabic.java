@@ -9,20 +9,21 @@ import android.widget.TextView;
 /**
  * Created by eiko on 11/30/2015.
  */
-public class Veg_hindi extends AppCompatActivity {
-    public static String titleStringHindi;
+public class VegArabic extends AppCompatActivity {
+    public static String titleStringArabic;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.veg_hindi);
-        Toolbar toolbar = findViewById(R.id.toolbar_hindi);
+        setContentView(R.layout.veg_arabic);
+
+        Toolbar toolbar = findViewById(R.id.toolbar_arabic);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        TextView textView = findViewById(R.id.tv_hindi2);
+        TextView textView = findViewById(R.id.tv_arabic2);
         textView.setMovementMethod(new ScrollingMovementMethod());
-        TextView tv_title = findViewById(R.id.tv_hindi_title);
-        titleStringHindi = tv_title.getText().toString();
+        TextView tv_title = findViewById(R.id.tv_arabic_title);
+        titleStringArabic = tv_title.getText().toString();
     }
 }

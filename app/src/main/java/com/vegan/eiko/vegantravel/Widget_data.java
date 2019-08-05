@@ -60,26 +60,6 @@ public class Widget_data implements RemoteViewsService.RemoteViewsFactory {
 
     @Override
     public void onDataSetChanged() {
-        pullData();
-//        reference = FirebaseDatabase.getInstance().getReferenceFromUrl(URL);
-//        reference.addValueEventListener(new ValueEventListener() {
-//            @Override
-//            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-//                map = (HashMap<String, String>) dataSnapshot.getValue();
-//                if (map != null) {
-//                    history = new ArrayList<>();
-//                    for (HashMap.Entry<String, String> M : map.entrySet()) {
-//                        history.add(M.getKey());
-//                        Log.i("pull data", history.toString());
-//                    }
-//                }
-//            }
-//
-//            @Override
-//            public void onCancelled(@NonNull DatabaseError databaseError) {
-//
-//            }
-//        });
     }
 
     @Override

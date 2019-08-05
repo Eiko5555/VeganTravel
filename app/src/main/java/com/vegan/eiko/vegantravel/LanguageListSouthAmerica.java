@@ -35,10 +35,10 @@ public class LanguageListSouthAmerica extends Fragment {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 if (position == 0) {
-                    Intent intent = new Intent(getActivity(), Veg_portuguese.class);
+                    Intent intent = new Intent(getActivity(), VegPortuguese.class);
                     startActivity(intent);
                 } else {
-                    Intent intent = new Intent(getActivity(), Veg_spanish.class);
+                    Intent intent = new Intent(getActivity(), VegSpanish.class);
                     startActivity(intent);
                 }
             }

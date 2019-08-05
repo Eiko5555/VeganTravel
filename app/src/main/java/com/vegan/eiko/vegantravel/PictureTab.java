@@ -18,7 +18,7 @@ import com.google.android.gms.ads.MobileAds;
 /**
  * Created by eiko on 12/25/2015.
  */
-public class Picture_tab extends Fragment {
+public class PictureTab extends Fragment {
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {

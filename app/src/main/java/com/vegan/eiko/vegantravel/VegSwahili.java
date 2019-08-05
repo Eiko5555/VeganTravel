@@ -7,21 +7,21 @@ import android.text.method.ScrollingMovementMethod;
 import android.widget.TextView;
 
 /**
- * Created by eiko on 11/24/2015.
+ * Created by eiko on 11/30/2015.
  */
-public class Veg_filipino extends AppCompatActivity {
-    public static String titleStringFilipino;
+public class VegSwahili extends AppCompatActivity {
+    public static String titleStringSwahili;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.veg_filipino);
-        Toolbar toolbar = findViewById(R.id.toolbar_filipino);
+        setContentView(R.layout.veg_swahili);
+        Toolbar toolbar = findViewById(R.id.toolbar_swahili);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        TextView textView = findViewById(R.id.tv_filipino2);
+        TextView textView = findViewById(R.id.tv_swahili2);
         textView.setMovementMethod(new ScrollingMovementMethod());
-        TextView tv_title = findViewById(R.id.tv_filipino_title);
-        titleStringFilipino = tv_title.getText().toString();
+        TextView tv_title = findViewById(R.id.tv_swahili_title);
+        titleStringSwahili = tv_title.getText().toString();
     }
 }

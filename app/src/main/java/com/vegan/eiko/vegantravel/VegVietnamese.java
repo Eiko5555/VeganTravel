@@ -9,19 +9,19 @@ import android.widget.TextView;
 /**
  * Created by eiko on 11/30/2015.
  */
-public class Veg_korean extends AppCompatActivity {
-    public static String titleStringKorean;
+public class VegVietnamese extends AppCompatActivity {
+    public static String titleStringVietnamese;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.veg_korean);
-        Toolbar toolbar = findViewById(R.id.toolbar_korean);
+        setContentView(R.layout.veg_vietnamese);
+        Toolbar toolbar = findViewById(R.id.toolbar_vietnamese);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        TextView textView = findViewById(R.id.tv_korean2);
+        TextView textView = findViewById(R.id.tv_vietnamese2);
         textView.setMovementMethod(new ScrollingMovementMethod());
-        TextView tv_title = findViewById(R.id.tv_korean_title);
-        titleStringKorean = tv_title.getText().toString();
+        TextView tv_title = findViewById(R.id.tv_vietnamese_title);
+        titleStringVietnamese = tv_title.getText().toString();
     }
 }

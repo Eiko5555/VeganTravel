@@ -33,13 +33,13 @@ public class LanguageListAfrica extends Fragment {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 if (position == 0) {
-                    Intent intent = new Intent(getActivity(), Veg_arabic.class);
+                    Intent intent = new Intent(getActivity(), VegArabic.class);
                     startActivity(intent);
                 } else if (position == 1) {
-                    Intent intent = new Intent(getActivity(), Veg_french.class);
+                    Intent intent = new Intent(getActivity(), VegFrench.class);
                     startActivity(intent);
                 } else if (position == 2) {
-                    Intent intent = new Intent(getActivity(), Veg_swahili.class);
+                    Intent intent = new Intent(getActivity(), VegSwahili.class);
                     startActivity(intent);
                 }
             }

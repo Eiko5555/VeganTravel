@@ -34,23 +34,23 @@ public class LanguageListEU extends Fragment {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 switch (position) {
                     case 0:
-                        Intent italian = new Intent(getActivity(), Veg_Italian.class);
+                        Intent italian = new Intent(getActivity(), VegItalian.class);
                         startActivity(italian);
                         break;
                     case 1:
-                        Intent french = new Intent(getActivity(), Veg_french.class);
+                        Intent french = new Intent(getActivity(), VegFrench.class);
                         startActivity(french);
                         break;
                     case 2:
-                        Intent german = new Intent(getActivity(), Veg_german.class);
+                        Intent german = new Intent(getActivity(), VegGerman.class);
                         startActivity(german);
                         break;
                     case 3:
-                        Intent spanish = new Intent(getActivity(), Veg_spanish.class);
+                        Intent spanish = new Intent(getActivity(), VegSpanish.class);
                         startActivity(spanish);
                         break;
                     case 4:
-                        Intent arabic = new Intent(getActivity(), Veg_arabic.class);
+                        Intent arabic = new Intent(getActivity(), VegArabic.class);
                         startActivity(arabic);
                         break;
                 }

@@ -76,21 +76,21 @@ public class MainActivity extends AppCompatActivity {
         databaseReference = FirebaseDatabase.getInstance().getReference();
         /*if title has value add. add to HashMap*/
         hashMap = new HashMap<>();
-        hashMap.put("Arabic", Veg_arabic.titleStringArabic);
-        hashMap.put("Chinese", Veg_chinese.titleStringChinese);
-        hashMap.put("Filipino", Veg_filipino.titleStringFilipino);
-        hashMap.put("French", Veg_french.titleStringFrench);
-        hashMap.put("German", Veg_german.titleStringGerman);
-        hashMap.put("Hindi", Veg_hindi.titleStringHindi);
-        hashMap.put("Italian", Veg_Italian.titleStringItalian);
-        hashMap.put("Japanese", Veg_japanese.titleStringJapanese);
-        hashMap.put("Korean", Veg_korean.titleStringKorean);
-        hashMap.put("Portuguese", Veg_portuguese.titleStringPortuguese);
-        hashMap.put("Russian", Veg_russian.titleStringRussian);
-        hashMap.put("Spanish", Veg_spanish.titleStringSpanish);
-        hashMap.put("Swahili", Veg_swahili.titleStringSwahili);
-        hashMap.put("Thai", Veg_thai.titleStringThai);
-        hashMap.put("Vietnamese", Veg_vietnamese.titleStringVietnamese);
+        hashMap.put("Arabic", VegArabic.titleStringArabic);
+        hashMap.put("Chinese", VegChinese.titleStringChinese);
+        hashMap.put("Filipino", VegFilipino.titleStringFilipino);
+        hashMap.put("French", VegFrench.titleStringFrench);
+        hashMap.put("German", VegGerman.titleStringGerman);
+        hashMap.put("Hindi", VegHindi.titleStringHindi);
+        hashMap.put("Italian", VegItalian.titleStringItalian);
+        hashMap.put("Japanese", VegJapanese.titleStringJapanese);
+        hashMap.put("Korean", VegKorean.titleStringKorean);
+        hashMap.put("Portuguese", VegPortuguese.titleStringPortuguese);
+        hashMap.put("Russian", VegRussian.titleStringRussian);
+        hashMap.put("Spanish", VegSpanish.titleStringSpanish);
+        hashMap.put("Swahili", VegSwahili.titleStringSwahili);
+        hashMap.put("Thai", VegThai.titleStringThai);
+        hashMap.put("Vietnamese", VegVietnamese.titleStringVietnamese);
 
         if (hashMap != null) {
             Log.i("test in mainactivity", hashMap.toString());
@@ -100,7 +100,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void setupViewPager(ViewPager viewpPager) {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
-        adapter.addFRAG(new Picture_tab(), "picture");
+        adapter.addFRAG(new PictureTab(), "picture");
         adapter.addFRAG(new LanguageListSouthAmerica(), "Language Card\n South America");
         adapter.addFRAG(new LanguageListASIA(), "Language Card \n Asia");
         adapter.addFRAG(new LanguageListEU(), "Language Card \n Europe");
@@ -128,7 +128,7 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.mHistory:
                 Intent intentHistory = new Intent(
-                        getApplicationContext(), history_list.class);
+                        getApplicationContext(), HistoryLlist.class);
                 startActivity(intentHistory);
                 break;
         }

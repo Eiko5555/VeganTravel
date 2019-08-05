@@ -23,7 +23,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class history_list extends AppCompatActivity {
+public class HistoryLlist extends AppCompatActivity {
     private ListView listView;
     private Context context;
     private DatabaseReference mRef;
