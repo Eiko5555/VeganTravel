@@ -4,15 +4,15 @@ android {
     signingConfigs {
         debug {
             storeFile file('keystore/signing.jks')
-            keyPassword 'xxxx'
-            storePassword 'xxxx'
+            keyPassword 'Otaku55'
+            storePassword 'PasokonOtaku1'
             keyAlias = 'upload'
         }
         release {
             storeFile file('keystore/signing.jks')
-            storePassword 'xxxx'
+            storePassword 'PasokonOtaku1'
             keyAlias = 'upload'
-            keyPassword 'xxxx'
+            keyPassword 'Otaku55'
         }
 
     }
