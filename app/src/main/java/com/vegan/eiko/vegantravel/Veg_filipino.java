@@ -1,8 +1,8 @@
 package com.vegan.eiko.vegantravel;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 /**
  * Created by eiko on 11/24/2015.
