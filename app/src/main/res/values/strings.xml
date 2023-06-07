@@ -103,4 +103,6 @@
         android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="appbar_title">Vegan Travel</string>
     <string name="Share">share_icon</string>
+    <string name="button_comment">16sp</string>
+    <string name="searchTab_image_contentdescription">this is image of serch tub menu</string>
 </resources>

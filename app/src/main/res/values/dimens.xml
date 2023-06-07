@@ -9,4 +9,6 @@
     <dimen name="padding_text_translate10">10dp</dimen>
     <dimen name="padding5">5dp</dimen>
     <dimen name="actionbar_elebation4">4dp</dimen>
+    <dimen name="empty_comment_text_siz">16sp</dimen>
+    <dimen name="forty">40dp</dimen>
 </resources>

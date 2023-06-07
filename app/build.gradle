@@ -35,7 +35,8 @@ dependencies {
     implementation 'com.google.firebase:firebase-core:16.0.8'
     implementation 'com.google.firebase:firebase-database:17.0.0'
 }
-apply plugin: 'com.google.gms.google-services'
+//hide google servise due to the build error
+//apply plugin: 'com.google.gms.google-services'
 //You can create two signingConfigs debug & release both if you want.
 //        At last in buildTypes link to that.
 //        android {

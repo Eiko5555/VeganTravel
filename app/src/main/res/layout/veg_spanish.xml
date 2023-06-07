@@ -13,12 +13,12 @@
         app:popupTheme="@style/AppTheme.PopupOverlay" />
 
     <TextView
-        android:id="@+id/tv_spanish"
+        android:id="@+id/tv_spanish_title"
         style="@style/translate_tv_title"
         android:text="Spanish" />
 
     <TextView
-        android:id="@+id/tvSpanish2"
+        android:id="@+id/tv_spanish_body"
         style="@style/translate_tv_body"
         android:layout_gravity="center_horizontal"
         android:text="@string/spanish" />
